@@ -1,0 +1,126 @@
+body{
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 450px;
+    padding: 20px;
+    background-color: rgb(46, 201, 201);
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+#display{
+
+    font-family: monospace;
+    font-size: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 10px black;
+}
+
+#controls button{
+align-items: center;
+padding: 10px;
+border: none;
+border-radius: 10px;
+transition: 0.5s;
+font-size: 1.1rem;
+
+}
+
+
+
+#btn-start{
+
+    padding: 5px;
+    border-radius: 3px;
+    background-color: hsl(140, 100%, 40%);
+    color:white;
+    margin: 1opx;
+    font-weight: bold;
+
+}
+
+#btn-start:hover{
+    background-color: hsl(140, 88%, 49%);
+    border: 0.5px solid black;
+}
+
+#btn-stop{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: hsl(0, 98%, 46%);
+    color:white;
+    margin: 1opx;
+    font-weight: bold;
+
+}
+
+#btn-stop:hover{
+       background-color: hsl(0, 62%, 35%);
+       border: 0.5px solid black;
+}
+
+#btn-reset{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: hsl(240, 87%, 48%);
+    color:white;
+    margin: 1opx;
+    font-weight: bold;
+
+}
+#btn-reset:hover{
+    background-color: hsl(240, 91%, 23%);
+    border: 0.5px solid black;
+}
+
+
+#mytext{
+    font-family: monospace;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2rem;
+    color:black;
+
+}
+
+@media (max-width: 600px) {
+    #container {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 3px solid black;
+    }
+
+    #display {
+        font-size: 2rem;
+        padding: 15px;
+    }
+
+    #controls button {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    #btn-start, #btn-stop, #btn-reset {
+        padding: 3px;
+        border-radius: 2px;
+    }
+
+    #mytext {
+        font-size: 1.5rem;
+    }
+}
